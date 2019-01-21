@@ -9,18 +9,18 @@ import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
 
-    Button RandomBtn;
+    Button GamesBtn;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        RandomBtn = (Button) findViewById(R.id.RandomBtn); //id of COD Button
+        GamesBtn = (Button) findViewById(R.id.GamesBtn); //id of COD Button
 
-        RandomBtn.setOnClickListener(new View.OnClickListener() {
+        GamesBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(MainActivity.this,RandomActivity.class));
+                startActivity(new Intent(MainActivity.this,GamesActivity.class));
 
 
 
