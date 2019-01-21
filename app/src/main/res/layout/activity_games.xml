@@ -7,7 +7,7 @@
     tools:context=".GamesActivity">
 
     <ImageButton
-        android:id="@+id/ofBtn"
+        android:id="@+id/OfBtn"
         android:layout_width="118dp"
         android:layout_height="120dp"
         android:layout_marginStart="8dp"
