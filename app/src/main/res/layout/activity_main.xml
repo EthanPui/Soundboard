@@ -7,8 +7,19 @@
 
     <Button
         android:id="@+id/GamesBtn"
+        android:layout_centerInParent="true"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Games" />
+
+    <!--<ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:rotation="90"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/abstractbackground" /> -->
+
+
 
 </RelativeLayout>
