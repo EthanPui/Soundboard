@@ -27,25 +27,36 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(MainActivity.this, GamesActivity.class));
+            }
+        });
+
         MoviesBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(MainActivity.this, MoviesActivity.class));
+            }
+        });
 
         PoliticsBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(MainActivity.this, PoliticsActivity.class));
+            }
+        });
 
         ViralBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(MainActivity.this, ViralActivity.class));
+            }
+        });
 
         MemesBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(MainActivity.this, MemesActivity.class));
+            }
+        });
 
         TelevisionBtn.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -53,17 +64,6 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(new Intent(MainActivity.this, TelevisionActivity.class));
             }
         });
-            }
-        });
-            }
-        });
-            }
-        });
-            }
-        });
-            }
-        });
+
     }
-
 }
-
