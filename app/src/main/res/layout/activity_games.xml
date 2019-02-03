@@ -34,10 +34,10 @@
             app:layout_rowWeight="1" />
 
         <Button
-            android:id="@+id/example1"
+            android:id="@+id/fatalityBtn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="example 1"
+            android:text="Fatality"
             app:layout_column="1"
             app:layout_columnWeight="1"
             app:layout_gravity="fill"
@@ -45,10 +45,10 @@
             app:layout_rowWeight="1" />
 
         <Button
-            android:id="@+id/example2"
+            android:id="@+id/hadoukenBtn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="example2"
+            android:text="Hadouken"
             app:layout_column="0"
             app:layout_columnWeight="1"
             app:layout_gravity="fill"
@@ -56,10 +56,10 @@
             app:layout_rowWeight="1" />
 
         <Button
-            android:id="@+id/example3"
+            android:id="@+id/kamehamehaBtn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="example3"
+            android:text="kamehameha"
             app:layout_column="0"
             app:layout_columnWeight="1"
             app:layout_gravity="fill"
@@ -67,10 +67,10 @@
             app:layout_rowWeight="1" />
 
         <Button
-            android:id="@+id/examle4"
+            android:id="@+id/metalgearsolidalertBtn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="example4"
+            android:text="Alert "
             app:layout_column="1"
             app:layout_columnWeight="1"
             app:layout_gravity="fill"
@@ -78,10 +78,10 @@
             app:layout_rowWeight="1" />
 
         <Button
-            android:id="@+id/example5"
+            android:id="@+id/naniBtn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="example5"
+            android:text="Nani"
             app:layout_column="0"
             app:layout_columnWeight="1"
             app:layout_gravity="fill"
@@ -89,10 +89,10 @@
             app:layout_rowWeight="1" />
 
         <Button
-            android:id="@+id/example6"
+            android:id="@+id/over9000Btn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="example6"
+            android:text="Its Over 9000"
             app:layout_column="1"
             app:layout_columnWeight="1"
             app:layout_gravity="fill"
