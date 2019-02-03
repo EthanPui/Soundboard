@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent" >
+    android:layout_height="match_parent">
 
 
     <ImageView
@@ -28,68 +28,67 @@
             android:id="@+id/GamesBtn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            app:layout_row="0"
+            android:text="Games"
             app:layout_column="1"
-            app:layout_gravity="fill"
             app:layout_columnWeight="1"
-            app:layout_rowWeight="1"
-            android:text="Games" />
+            app:layout_gravity="fill"
+            app:layout_row="0"
+            app:layout_rowWeight="1" />
 
         <Button
             android:id="@+id/MoviesBtn"
-            android:text="Movies"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            app:layout_row="0"
+            android:text="Movies"
             app:layout_column="0"
-            app:layout_gravity="fill"
             app:layout_columnWeight="1"
+            app:layout_gravity="fill"
+            app:layout_row="0"
             app:layout_rowWeight="1" />
 
         <Button
             android:id="@+id/PoliticsBtn"
-            android:text="Politics"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            app:layout_row="1"
+            android:text="Politics"
             app:layout_column="0"
-            app:layout_gravity="fill"
             app:layout_columnWeight="1"
+            app:layout_gravity="fill"
+            app:layout_row="1"
             app:layout_rowWeight="1" />
 
         <Button
             android:id="@+id/ViralBtn"
-            android:text="Viral"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            app:layout_row="1"
+            android:text="Viral"
             app:layout_column="1"
-            app:layout_gravity="fill"
             app:layout_columnWeight="1"
+            app:layout_gravity="fill"
+            app:layout_row="1"
             app:layout_rowWeight="1" />
 
         <Button
             android:id="@+id/MemesBtn"
-            android:text="Memes"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            app:layout_row="2"
+            android:text="Memes"
             app:layout_column="0"
-            app:layout_gravity="fill"
             app:layout_columnWeight="1"
+            app:layout_gravity="fill"
+            app:layout_row="2"
             app:layout_rowWeight="1" />
 
         <Button
             android:id="@+id/TelevisionBtn"
-            android:text="Television"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            app:layout_row="2"
+            android:text="Television"
             app:layout_column="1"
-            app:layout_gravity="fill"
             app:layout_columnWeight="1"
+            app:layout_gravity="fill"
+            app:layout_row="2"
             app:layout_rowWeight="1" />
-
 
 
     </android.support.v7.widget.GridLayout>
