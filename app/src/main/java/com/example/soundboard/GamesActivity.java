@@ -9,7 +9,7 @@ import android.widget.Button;
 
 public class GamesActivity extends AppCompatActivity {
 
-    Button  MissionFailedBtn, OoofBtn, fatalityBtn, hadoukenBtn, kamehamehaBtn, metalgearsolidalertBtn, naniBtn, over9000Btn;
+    Button  MissionFailedBtn, OoofBtn, fatalityBtn, hadoukenBtn, metalgearsolidalertBtn, inhumanreactionsBtn, marioooofBtn, pootisBtn;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -20,10 +20,11 @@ public class GamesActivity extends AppCompatActivity {
         OoofBtn = (Button)findViewById(R.id.OoofBtn);
         fatalityBtn = (Button)findViewById(R.id.fatalityBtn);
         hadoukenBtn = (Button)findViewById(R.id.hadoukenBtn);
-        kamehamehaBtn = (Button)findViewById(R.id.kamehamehaBtn);
         metalgearsolidalertBtn = (Button)findViewById(R.id.metalgearsolidalertBtn);
-        naniBtn = (Button)findViewById(R.id.naniBtn);
-        over9000Btn = (Button)findViewById(R.id.over9000Btn);
+        inhumanreactionsBtn = (Button)findViewById(R.id.inhumanreactionsBtn);
+        marioooofBtn = (Button)findViewById(R.id.marioooofBtn);
+        pootisBtn = (Button)findViewById(R.id.pootisBtn);
+
 
         MissionFailedBtn.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -58,10 +59,10 @@ public class GamesActivity extends AppCompatActivity {
             }
         });
 
-        kamehamehaBtn.setOnClickListener(new View.OnClickListener() {
+        inhumanreactionsBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                MediaPlayer mp = MediaPlayer.create(GamesActivity.this, R.raw.kamehameha);
+                MediaPlayer mp = MediaPlayer.create(GamesActivity.this, R.raw.inhumanreactions);
                 mp.start();
             }
         });
@@ -74,18 +75,18 @@ public class GamesActivity extends AppCompatActivity {
             }
         });
 
-        naniBtn.setOnClickListener(new View.OnClickListener() {
+        marioooofBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                MediaPlayer mp = MediaPlayer.create(GamesActivity.this, R.raw.nani);
+                MediaPlayer mp = MediaPlayer.create(GamesActivity.this, R.raw.marioooof);
                 mp.start();
             }
         });
 
-        over9000Btn.setOnClickListener(new View.OnClickListener() {
+        pootisBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                MediaPlayer mp = MediaPlayer.create(GamesActivity.this, R.raw.over9000);
+                MediaPlayer mp = MediaPlayer.create(GamesActivity.this, R.raw.pootis);
                 mp.start();
             }
         });
