@@ -1,10 +1,14 @@
 package com.example.soundboard;
 
+import android.content.DialogInterface;
 import android.media.MediaPlayer;
+import android.provider.MediaStore;
+import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.Toast;
 
 public class MemesActivity extends AppCompatActivity {
 
@@ -67,6 +71,30 @@ public class MemesActivity extends AppCompatActivity {
         rickrollBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+
+                AlertDialog alertDialog = new AlertDialog.Builder(MemesActivity.this)
+                        //set icon
+                        .setIcon(android.R.drawable.ic_dialog_alert)
+                        //set title
+                        .setTitle("Are you sure?")
+                        //set message
+                        .setMessage("No refunds will be given after purchase")
+                        //set positive button
+                        .setPositiveButton("Yes", new DialogInterface.OnClickListener() {
+                            @Override
+                            public void onClick(DialogInterface dialogInterface, int i) {
+                                MediaPlayer mp = MediaPlayer.create(MemesActivity.this, R.raw.rickroll);
+                                mp.start();
+                            }
+                        })
+                        //set negative button
+                        .setNegativeButton("No", new DialogInterface.OnClickListener() {
+                            @Override
+                            public void onClick(DialogInterface dialogInterface, int i) {
+                                Toast.makeText(getApplicationContext(),"I'm disappointed in you...",Toast.LENGTH_LONG).show();
+                            }
+                        })
+                        .show();
 
             }
         });

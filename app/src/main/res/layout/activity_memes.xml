@@ -68,7 +68,7 @@
             android:id="@+id/rickrollBtn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Click for Free"
+            android:text="@string/button_text4"
             app:layout_column="1"
             app:layout_columnWeight="1"
             app:layout_gravity="fill"
