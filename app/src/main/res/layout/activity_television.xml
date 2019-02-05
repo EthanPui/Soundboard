@@ -12,10 +12,10 @@
         android:layout_height="match_parent" >
 
         <Button
-            android:id="@+id/MissionFailedBtn"
+            android:id="@+id/wrongBtn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Mission Failed"
+            android:text="Wrong!"
             app:layout_column="0"
             app:layout_columnWeight="1"
             app:layout_gravity="fill"
@@ -23,10 +23,10 @@
             app:layout_rowWeight="1" />
 
         <Button
-            android:id="@+id/OoofBtn"
+            android:id="@+id/dohBtn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Ooof"
+            android:text="Doh!"
             app:layout_column="1"
             app:layout_columnWeight="1"
             app:layout_gravity="fill"
@@ -34,10 +34,10 @@
             app:layout_rowWeight="1" />
 
         <Button
-            android:id="@+id/fatalityBtn"
+            android:id="@+id/ohshitdawgBtn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Fatality"
+            android:text="@string/button_text6"
             app:layout_column="1"
             app:layout_columnWeight="1"
             app:layout_gravity="fill"
@@ -45,10 +45,10 @@
             app:layout_rowWeight="1" />
 
         <Button
-            android:id="@+id/hadoukenBtn"
+            android:id="@+id/mrkrabsBtn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Hadouken"
+            android:text="@string/button_text7"
             app:layout_column="0"
             app:layout_columnWeight="1"
             app:layout_gravity="fill"
@@ -56,10 +56,10 @@
             app:layout_rowWeight="1" />
 
         <Button
-            android:id="@+id/marioooofBtn"
+            android:id="@+id/jeezrickBtn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Mario ooof"
+            android:text="Jeez Rick!"
             app:layout_column="0"
             app:layout_columnWeight="1"
             app:layout_gravity="fill"
@@ -67,10 +67,10 @@
             app:layout_rowWeight="1" />
 
         <Button
-            android:id="@+id/metalgearsolidalertBtn"
+            android:id="@+id/mymanBtn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Alert "
+            android:text="My man!"
             app:layout_column="1"
             app:layout_columnWeight="1"
             app:layout_gravity="fill"
@@ -78,10 +78,10 @@
             app:layout_rowWeight="1" />
 
         <Button
-            android:id="@+id/pootisBtn"
+            android:id="@+id/ohnoBtn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Pootis"
+            android:text="Oh No!"
             app:layout_column="0"
             app:layout_columnWeight="1"
             app:layout_gravity="fill"
@@ -89,10 +89,10 @@
             app:layout_rowWeight="1" />
 
         <Button
-            android:id="@+id/inhumanreactionsBtn"
+            android:id="@+id/willhelmscreamBtn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/button_text5"
+            android:text="@string/button_text8"
             app:layout_column="1"
             app:layout_columnWeight="1"
             app:layout_gravity="fill"
