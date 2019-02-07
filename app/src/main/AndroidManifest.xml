@@ -11,7 +11,8 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
-        <activity android:name=".MoviesActivity"></activity>
+        <activity android:name=".AnimeActivity"></activity>
+        <activity android:name=".MoviesActivity" />
         <activity android:name=".TelevisionActivity" />
         <activity android:name=".MemesActivity" />
         <activity android:name=".ViralActivity" />

@@ -9,10 +9,10 @@
         android:layout_height="match_parent">
 
         <Button
-            android:id="@+id/iamyourfatherBtn"
+            android:id="@+id/kamehamehaBtn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="I Am Your Father"
+            android:text="Kamehameha"
             app:layout_column="0"
             app:layout_columnWeight="1"
             app:layout_gravity="fill"
@@ -20,10 +20,10 @@
             app:layout_rowWeight="1" />
 
         <Button
-            android:id="@+id/thisisspartaBtn"
+            android:id="@+id/over9000Btn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="This is Sparta"
+            android:text="Over 9000"
             android:textSize="10dp"
             app:layout_column="1"
             app:layout_columnWeight="1"
@@ -32,10 +32,10 @@
             app:layout_rowWeight="1" />
 
         <Button
-            android:id="@+id/itsatrapBtn"
+            android:id="@+id/pikachuthunderboltBtn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Its a Trap"
+            android:text="Pikachu"
             app:layout_column="1"
             app:layout_columnWeight="1"
             app:layout_gravity="fill"
@@ -43,10 +43,10 @@
             app:layout_rowWeight="1" />
 
         <Button
-            android:id="@+id/minemineBtn"
+            android:id="@+id/wowBtn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Mine Mine Mine!"
+            android:text="Wow"
             app:layout_column="0"
             app:layout_columnWeight="1"
             app:layout_gravity="fill"
@@ -54,10 +54,10 @@
             app:layout_rowWeight="1" />
 
         <Button
-            android:id="@+id/noooBtn"
+            android:id="@+id/objectionBtn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Nooo!"
+            android:text="Objection"
             app:layout_column="0"
             app:layout_columnWeight="1"
             app:layout_gravity="fill"
@@ -65,10 +65,10 @@
             app:layout_rowWeight="1" />
 
         <Button
-            android:id="@+id/omgwowBtn"
+            android:id="@+id/falconpunchBtn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Omg Wow!"
+            android:text="Falcon Punch"
             app:layout_column="1"
             app:layout_columnWeight="1"
             app:layout_gravity="fill"
@@ -76,10 +76,10 @@
             app:layout_rowWeight="1" />
 
         <Button
-            android:id="@+id/chosepoorlyBtn"
+            android:id="@+id/nanisoreeBtn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Chose Poorly"
+            android:text="Nani Soree"
             app:layout_column="0"
             app:layout_columnWeight="1"
             app:layout_gravity="fill"
@@ -87,10 +87,10 @@
             app:layout_rowWeight="1" />
 
         <Button
-            android:id="@+id/releasethekrakenBtn"
+            android:id="@+id/sorearuBtn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Release the Kraken"
+            android:text="Sore Aru"
             app:layout_column="1"
             app:layout_columnWeight="1"
             app:layout_gravity="fill"

@@ -9,7 +9,7 @@ import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
 
-    Button GamesBtn, MoviesBtn, PoliticsBtn, ViralBtn, MemesBtn, TelevisionBtn;
+    Button GamesBtn, MoviesBtn, AnimeBtn, ViralBtn, MemesBtn, TelevisionBtn;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -18,7 +18,7 @@ public class MainActivity extends AppCompatActivity {
 
         GamesBtn = (Button) findViewById(R.id.GamesBtn); //id of Button
         MoviesBtn = (Button) findViewById(R.id.MoviesBtn);
-        PoliticsBtn = (Button) findViewById(R.id.PoliticsBtn);
+        AnimeBtn = (Button) findViewById(R.id.AnimeBtn);
         ViralBtn = (Button) findViewById(R.id.ViralBtn);
         MemesBtn = (Button) findViewById(R.id.MemesBtn);
         TelevisionBtn = (Button) findViewById(R.id.TelevisionBtn);
@@ -37,10 +37,10 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        PoliticsBtn.setOnClickListener(new View.OnClickListener() {
+        AnimeBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(MainActivity.this, PoliticsActivity.class));
+                startActivity(new Intent(MainActivity.this, AnimeActivity.class));
             }
         });
 

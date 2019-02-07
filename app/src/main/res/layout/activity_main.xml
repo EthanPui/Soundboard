@@ -47,10 +47,10 @@
             app:layout_rowWeight="1" />
 
         <Button
-            android:id="@+id/PoliticsBtn"
+            android:id="@+id/AnimeBtn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Politics"
+            android:text="Anime"
             app:layout_column="0"
             app:layout_columnWeight="1"
             app:layout_gravity="fill"
